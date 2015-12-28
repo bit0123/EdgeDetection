@@ -1,5 +1,5 @@
 # EdgeDetection
-Edge detection using different techniques in image processing
+Edge detection using different techniques in image processing <br>
 1. Sobel Edge Detection
  <li> Calculate gradient of X and Y direction
  <li> Merge gradient value
