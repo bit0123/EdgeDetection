@@ -128,7 +128,7 @@ int CDECL BasicBgModel(int* frameIndex, KScScalarImage2dUint8* srcImg, KScScalar
 	*/
 
 	// Determine threshold to cut off 20% accumulation from gradient distribution
-	double total, thr = .2, accTotal = 0, bin;
+	double total, thr = .8, accTotal = 0, bin;
 	total = grad.rows * grad.cols;
 	for (int h = 0; h < histSize; h++)
 	{
